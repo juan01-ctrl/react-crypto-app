@@ -1,0 +1,33 @@
+:root {
+    font-size: .8464705882352942vw + .8rem;
+}
+
+/* Max Font Size */
+@media screen and (min-width:1500px) {
+    :root {
+        font-size: 1.2029411764705883em;
+    }
+}
+
+/* Min Font Size */
+@media screen and (max-width:500px) {
+    :root {
+        font-size: .8764705882352944em;
+    }
+}
+
+body{
+    min-height: 100vh;
+}
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
